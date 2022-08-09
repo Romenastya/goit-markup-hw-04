@@ -132,6 +132,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .address-link:hover {
   color: var(--accent-color);
@@ -150,8 +151,10 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.icon-header:hover .icon-contact,
-.icon-header:focus .icon-contact {
+.address-link:hover .icon-contact {
+  fill: var(--accent-color);
+}
+.address-link:focus .icon-contact {
   fill: var(--accent-color);
 }
 
@@ -183,7 +186,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.36;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0px;
   text-align: center;
@@ -222,9 +225,9 @@ ul {
 
 .title-h3 {
   color: var(--text-color);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.94;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
@@ -271,8 +274,6 @@ ul {
 }
 .info__card {
   background-color: #fff;
-  width: 270px;
-  height: 428px;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -283,12 +284,9 @@ ul {
   margin-right: 0;
 }
 .txt-container {
-  text-align: center;
-  padding: 30px 0px;
+  padding: 30px 30px;
 }
 .text-card {
-  width: 270px;
-  margin-right: 30px;
   margin-bottom: 16px;
 }
 .social-media-list {
@@ -307,17 +305,19 @@ ul {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  fill: #afb1b8;
 }
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--accent-color);
+  fill: var(--white-color);
 }
 .social-media-link:hover .soc-med-icon,
 .social-media-link:focus .soc-media-icon {
   fill: var(--white-color);
 }
 .soc-med-icon {
-  fill: var(--color-icon);
+  fill: carrentColor;
 }
 
 /* Постоянные клиенты */
@@ -348,7 +348,6 @@ ul {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
 .logo-client:hover,
 .logo-client:focus {
   border: 1px solid var(--accent-color);
@@ -412,15 +411,13 @@ ul {
   background: rgba(255, 255, 255, 0.1);
 }
 .footer-soc-media {
-  width: 206px;
-  height: 80px;
-  display: inline-block;
   gap: 10px;
   align-items: baseline;
   margin-left: 70px;
 }
 .icon-title {
   color: #fff;
+  font-size: 14px;
   font-style: normal;
   text-align: center;
   margin-bottom: 20px;
@@ -433,6 +430,10 @@ ul {
 }
 .footer-box {
   display: inline-block;
+}
+.flex-footer {
+  display: flex;
+  align-items: baseline;
 }
 
 /* Portfolio.html */

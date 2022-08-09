@@ -22,14 +22,14 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header class="head">
+        <header class="head header">
       <div class="container">
         <div class="header-inner">
           <nav class="head-nav">
             <a class="logo-link" href="./index.html"> Web<span>Studio</span> </a>
 
             <ul class="nav-menu">
-              <li class="nav-menu-item"><a class="nav-menu-link" href="">Студия</a></li>
+              <li class="nav-menu-item"><a class="nav-menu-link" href="./index.html">Студия</a></li>
               <li class="nav-menu-item">
                 <a class="nav-menu-link" href="./portfolio.html">Портфолио</a>
               </li>
@@ -39,16 +39,18 @@
 
           <ul class="contacts">
             <li class="item-contacts icon-header">
-              <svg class="icon-contact" width="16" height="12">
+                            <a class="address-link" href="info@devstudio.com">
+                <svg class="icon-contact mailto" width="16" height="12">
                 <use href="./img/icons.svg.svg#icon-mailto"></use>
               </svg>
-               <a class="address-link icon-mailto" href="info@devstudio.com">info@devstudio.com</a>
+                info@devstudio.com</a>
             </li>
             <li class="item-contacts icon-header">
-              <svg class="icon-contact" width="10" height="16">
+                           <a class="address-link" href="+380961111111">
+                <svg class="icon-contact tel" width="10" height="16">
                 <use href="./img/icons.svg.svg#icon-tel"></use>
               </svg>
-              <a class="address-link" href="+380961111111">+38 096 111 11 11</a>
+                +38 096 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -181,7 +183,7 @@
                       </a>
                     </li>
                   </ul>
-                </div>
+                
               </li>
               <li class="info__card">
                 <img src="./img/photo2.jpg" alt="Ольга" width="270" height="260" />
@@ -353,7 +355,7 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="container">
+      <div class="container flex-footer">
         <div class="footer-box">
           <a class="logo-link-footer" href="./index.html"> Web<span>Studio</span> </a>
           <address>
