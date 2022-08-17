@@ -236,6 +236,7 @@ ul {
 }
 .txt-block {
   display: flex;
+  margin-right: -30px;
 }
 .text-card {
   width: 270px;
@@ -346,6 +347,11 @@ ul {
 }
 .txt-card {
   margin-bottom: 16px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .social-media-list {
   display: flex;
@@ -641,7 +647,7 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
 }
 
 /* modal */
